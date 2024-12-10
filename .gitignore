@@ -1,0 +1,5 @@
+# Ignorar diretórios e arquivos gerados
+node_modules/
+.env
+.DS_Store  # Se estiver usando macOS
+Thumbs.db
