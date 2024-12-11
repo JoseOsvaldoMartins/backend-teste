@@ -127,6 +127,10 @@ app.get('/headers', (req, res) =>{
   return;
 }); */
 
+app.get('/teste', async (req, res) => {
+  res.json({ message: 'Teste bem-sucedido!'});
+});
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
